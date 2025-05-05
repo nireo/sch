@@ -1,0 +1,10 @@
+[package]
+name = "sch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.0.0", features = ["full", "tracing"] }
+tokio-util = { version = "0.7.0", features = ["full"] }
+tokio-stream = { version = "0.1" }
+futures = "0.3.31"
